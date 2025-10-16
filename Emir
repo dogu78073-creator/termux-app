@@ -1,0 +1,2 @@
+pkg update -y && pkg upgrade -y && pkg install openjdk-17 wget unzip -y && mkdir -p ~/ZUMRUT_SMP && cd ~/ZUMRUT_SMP && wget -O setup_zumrutsmp.sh https://raw.githubusercontent.com/mc-setup-tools/auto-zumrut-smp/main/setup.sh && bash setup_zumruts
+mp.sh
